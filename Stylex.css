@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+}
+
+#cardCharacter{
+    max-width: 325px;
+    max-height: 600px;
+}
+
+#cardEpisode{
+    max-width: 328px;
+    max-height: 243px;
+    min-width: 328px;
+    min-height: 243px;
+}
+#imgCharacter{
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+#button{
+    border-radius: 5px;
+    background-color: #fff;
+    color: #212529;
+}
+
+#button:hover{
+    background-image: -webkit-linear-gradient(45deg, #212529 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #212529 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 500ms ease-in-out;
+    transition: background 500ms ease-in-out;
+    border-color: transparent;
+    color: #212529;
+}
+
+
